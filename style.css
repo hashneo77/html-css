@@ -2,6 +2,7 @@ body{
 	background: #666;
 	color: #fff;
 	font-family: arial;
+	line-height: 1.4em;
 }
 
 a{
@@ -17,9 +18,9 @@ ul{
 #container{
 	background: #333;
 	width: 960px;
-	margin: 30px auto;
+	margin: auto;
 	overflow: hidden;
-	padding: 30px;
+	padding: 10px;
 	text-align: left;
 }
 
@@ -31,6 +32,17 @@ ul{
 #nav ul{
 	padding-top: 13px;
 	padding-left: 10px;
+}
+
+.clr{
+	clear: both;
+}
+
+#footer{
+	text-align: center;
+	padding: 10px;
+	background: #666;
+	margin-top: 30px;
 }
 
 #nav li{
@@ -51,8 +63,8 @@ ul{
 
 #sidebar{
 	float: right;
-	width: 30%;
+	width: 20%;
 	background: #666;
 	margin-top: 20px;
-	padding: 20px;
+	padding: 10px;
 }
